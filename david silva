@@ -1,0 +1,9 @@
+-- Tạo file insert_data.sql
+USE News;
+
+INSERT INTO ChungLoai (maCL, tenCL) VALUES
+('CLT001', 'Tin xã hội'),
+('CLT002', 'Việc làm'),
+('CLT003', 'Nghệ thuật sống');
+
+-- Thêm các lệnh INSERT khác cho LoaiTin và Tin
