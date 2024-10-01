@@ -1,0 +1,10 @@
+-- Tạo file create_database.sql
+CREATE DATABASE IF NOT EXISTS News;
+USE News;
+
+CREATE TABLE IF NOT EXISTS ChungLoai (
+    maCL VARCHAR(10) PRIMARY KEY,
+    tenCL NVARCHAR(255) NOT NULL
+);
+
+-- Thêm các lệnh CREATE TABLE khác cho LoaiTin và Tin
